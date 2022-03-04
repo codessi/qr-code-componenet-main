@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+:root {
+  --White: hsl(0, 0%, 100);
+  --Light-gray: hsl(212, 45%, 89);
+  --Grayish-blue: hsl(220, 15%, 55);
+  --Dark-blue: hsl(218, 44%, 22);
+}
+
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: #d6e2f0;
+  border: dotted;
+  font-size: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card {
+  background-color: white;
+  padding: 1rem;
+  width: 20rem;
+  text-align: center;
+  border-radius: .8rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.214) 0px 4px 52px;
+          box-shadow: rgba(0, 0, 0, 0.214) 0px 4px 52px;
+}
+
+img {
+  border-radius: .4rem;
+}
+
+main h2 {
+  padding: 1rem;
+}
+
+main p {
+  padding: 1rem;
+  color: #7b879d;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 10%;
+}
+/*# sourceMappingURL=style.css.map */
